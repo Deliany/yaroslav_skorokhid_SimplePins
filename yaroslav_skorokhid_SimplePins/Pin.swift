@@ -8,10 +8,13 @@
 
 import Foundation
 import CoreData
+import MapKit
 
 
 class Pin: NSManagedObject {
 
-// Insert code here to add functionality to your managed object subclass
+    var coordinate: CLLocationCoordinate2D {
+        return CLLocationCoordinate2D(latitude: self.latitude, longitude: self.longitude)
+    }
 
 }

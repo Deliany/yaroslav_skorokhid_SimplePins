@@ -14,8 +14,8 @@ import CoreData
 
 extension Pin {
 
-    @NSManaged var title: String?
-    @NSManaged var formattedAddress: String?
+    @NSManaged var title: String
+    @NSManaged var formattedAddress: String
     @NSManaged var latitude: Double
     @NSManaged var longitude: Double
 

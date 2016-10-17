@@ -1,0 +1,6 @@
+framework module Pods_yaroslav_skorokhid_SimplePins {
+  umbrella header "Pods-yaroslav_skorokhid_SimplePins-umbrella.h"
+
+  export *
+  module * { export * }
+}

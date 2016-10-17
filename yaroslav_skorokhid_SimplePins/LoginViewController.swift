@@ -9,27 +9,58 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    let fbOAuthSegueIdentifier = "FBOAuthSegue"
+    let homeSegueIdentifier = "HomeSegue"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.checkSession()
     }
-    */
+    
+    func checkSession() {
+        if let fbCredentials = SettingsService.facebookCredentials where !fbCredentials.isExpired() {
+            NSOperationQueue.mainQueue().addOperationWithBlock({ 
+                self.performSegueWithIdentifier(self.homeSegueIdentifier, sender: nil)
+            })
+        }
+    }
+    
+    func showErorAlertWithText(text: String) {
+        let alert = UIAlertController(title: NSLocalizedString("Error", comment: ""), message: text, preferredStyle: UIAlertControllerStyle.Alert)
+        let action = UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: .Default, handler: { (action: UIAlertAction) in
+            
+        })
+        alert.addAction(action)
+        self.presentViewController(alert, animated: true, completion: nil)
+    }
+    
+    // MARK: - Navigation
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == self.fbOAuthSegueIdentifier, let navigationController = segue.destinationViewController as? UINavigationController, authController = navigationController.topViewController as? FBOAuthViewController {
+            authController.cancelClosure = {
+                $0.navigationController?.dismissViewControllerAnimated(true, completion: nil)
+            }
+            authController.completionClosure = { (credentials: OAuthCredentials?, errorString: String?, controller: FBOAuthViewController) -> Void in
+                
+                if let credentials = credentials {
+                    // do something with credentials
+                    SettingsService.facebookCredentials = credentials
+                    controller.navigationController?.dismissViewControllerAnimated(true, completion: {
+                        self.checkSession()
+                    })
+                }
+                else if let error = errorString {
+                    controller.navigationController?.dismissViewControllerAnimated(true, completion: {
+                        self.showErorAlertWithText(error)
+                    })
+                }
+            }
+        }
+    }
 
 }

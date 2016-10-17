@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7974C8BE4BB62A03D51EC0A5 /* Pods_yaroslav_skorokhid_SimplePins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A446E8D745C875F2612CFF2F /* Pods_yaroslav_skorokhid_SimplePins.framework */; };
 		B7B5480B1DB25C070057B66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5480A1DB25C070057B66E /* AppDelegate.swift */; };
-		B7B5480D1DB25C070057B66E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5480C1DB25C070057B66E /* FirstViewController.swift */; };
-		B7B5480F1DB25C070057B66E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5480E1DB25C070057B66E /* SecondViewController.swift */; };
+		B7B5480D1DB25C070057B66E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5480C1DB25C070057B66E /* HomeViewController.swift */; };
+		B7B5480F1DB25C070057B66E /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5480E1DB25C070057B66E /* MoreViewController.swift */; };
 		B7B548121DB25C070057B66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B548101DB25C070057B66E /* Main.storyboard */; };
 		B7B548141DB25C070057B66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B548131DB25C070057B66E /* Assets.xcassets */; };
 		B7B548171DB25C070057B66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B548151DB25C070057B66E /* LaunchScreen.storyboard */; };
+		B7B5481F1DB2628C0057B66E /* FBOAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5481E1DB2628C0057B66E /* FBOAuthViewController.swift */; };
+		B7B548211DB263060057B66E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548201DB263060057B66E /* LoginViewController.swift */; };
+		B7B548281DB264180057B66E /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548271DB264180057B66E /* SettingsService.swift */; };
+		B7B5482F1DB2A4C10057B66E /* OAuthCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5482E1DB2A4C10057B66E /* OAuthCredentials.swift */; };
+		B7B548311DB2A4CA0057B66E /* OAuthResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548301DB2A4CA0057B66E /* OAuthResponseParser.swift */; };
+		B7B548331DB2A4DA0057B66E /* OAuthSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548321DB2A4DA0057B66E /* OAuthSocial.swift */; };
+		B7B548351DB2A4E90057B66E /* FacebookOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548341DB2A4E90057B66E /* FacebookOAuth.swift */; };
+		B7B548371DB2A4F50057B66E /* OAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548361DB2A4F50057B66E /* OAuthManager.swift */; };
+		B7B5483D1DB39E300057B66E /* FacebookGraphAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5483C1DB39E300057B66E /* FacebookGraphAPI.swift */; };
+		B7B548401DB3A1990057B66E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5483F1DB3A1990057B66E /* User.swift */; };
+		B7B548431DB4AD0B0057B66E /* PinsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B548421DB4AD0B0057B66E /* PinsService.swift */; };
+		B7B548491DB4DBDE0057B66E /* SimplePins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7B548471DB4DBDE0057B66E /* SimplePins.xcdatamodeld */; };
+		B7B5484C1DB4DCD50057B66E /* Pin+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5484A1DB4DCD50057B66E /* Pin+CoreDataProperties.swift */; };
+		B7B5484D1DB4DCD50057B66E /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5484B1DB4DCD50057B66E /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		524B672DC5C31289FD224D10 /* Pods-yaroslav_skorokhid_SimplePins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yaroslav_skorokhid_SimplePins.release.xcconfig"; path = "Pods/Target Support Files/Pods-yaroslav_skorokhid_SimplePins/Pods-yaroslav_skorokhid_SimplePins.release.xcconfig"; sourceTree = "<group>"; };
+		A446E8D745C875F2612CFF2F /* Pods_yaroslav_skorokhid_SimplePins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yaroslav_skorokhid_SimplePins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B548071DB25C070057B66E /* yaroslav_skorokhid_SimplePins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yaroslav_skorokhid_SimplePins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B5480A1DB25C070057B66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7B5480C1DB25C070057B66E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B7B5480E1DB25C070057B66E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B7B5480C1DB25C070057B66E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B7B5480E1DB25C070057B66E /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		B7B548111DB25C070057B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7B548131DB25C070057B66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B548161DB25C070057B66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7B548181DB25C070057B66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B5481E1DB2628C0057B66E /* FBOAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBOAuthViewController.swift; sourceTree = "<group>"; };
+		B7B548201DB263060057B66E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7B548271DB264180057B66E /* SettingsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		B7B5482E1DB2A4C10057B66E /* OAuthCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthCredentials.swift; sourceTree = "<group>"; };
+		B7B548301DB2A4CA0057B66E /* OAuthResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthResponseParser.swift; sourceTree = "<group>"; };
+		B7B548321DB2A4DA0057B66E /* OAuthSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthSocial.swift; sourceTree = "<group>"; };
+		B7B548341DB2A4E90057B66E /* FacebookOAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookOAuth.swift; sourceTree = "<group>"; };
+		B7B548361DB2A4F50057B66E /* OAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthManager.swift; sourceTree = "<group>"; };
+		B7B5483C1DB39E300057B66E /* FacebookGraphAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookGraphAPI.swift; sourceTree = "<group>"; };
+		B7B5483F1DB3A1990057B66E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B7B548421DB4AD0B0057B66E /* PinsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinsService.swift; sourceTree = "<group>"; };
+		B7B548481DB4DBDE0057B66E /* SimplePins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplePins.xcdatamodel; sourceTree = "<group>"; };
+		B7B5484A1DB4DCD50057B66E /* Pin+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pin+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B7B5484B1DB4DCD50057B66E /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		F2C3953BA2473B86F4DEF4E5 /* Pods-yaroslav_skorokhid_SimplePins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yaroslav_skorokhid_SimplePins.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yaroslav_skorokhid_SimplePins/Pods-yaroslav_skorokhid_SimplePins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7974C8BE4BB62A03D51EC0A5 /* Pods_yaroslav_skorokhid_SimplePins.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DEB11151B640A883D3D26B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A446E8D745C875F2612CFF2F /* Pods_yaroslav_skorokhid_SimplePins.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2D2EB873B8C299AA8A0208 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C3953BA2473B86F4DEF4E5 /* Pods-yaroslav_skorokhid_SimplePins.debug.xcconfig */,
+				524B672DC5C31289FD224D10 /* Pods-yaroslav_skorokhid_SimplePins.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B7B547FE1DB25C070057B66E = {
 			isa = PBXGroup;
 			children = (
 				B7B548091DB25C070057B66E /* yaroslav_skorokhid_SimplePins */,
 				B7B548081DB25C070057B66E /* Products */,
+				3D2D2EB873B8C299AA8A0208 /* Pods */,
+				0DEB11151B640A883D3D26B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,117 @@
 		B7B548091DB25C070057B66E /* yaroslav_skorokhid_SimplePins */ = {
 			isa = PBXGroup;
 			children = (
-				B7B5480A1DB25C070057B66E /* AppDelegate.swift */,
-				B7B5480C1DB25C070057B66E /* FirstViewController.swift */,
-				B7B5480E1DB25C070057B66E /* SecondViewController.swift */,
-				B7B548101DB25C070057B66E /* Main.storyboard */,
-				B7B548131DB25C070057B66E /* Assets.xcassets */,
-				B7B548151DB25C070057B66E /* LaunchScreen.storyboard */,
-				B7B548181DB25C070057B66E /* Info.plist */,
+				B7B548251DB263300057B66E /* Resources */,
+				B7B548221DB2630A0057B66E /* Model */,
+				B7B548231DB263190057B66E /* View */,
+				B7B548241DB2631D0057B66E /* Controller */,
 			);
 			path = yaroslav_skorokhid_SimplePins;
+			sourceTree = "<group>";
+		};
+		B7B548221DB2630A0057B66E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548461DB4DBC50057B66E /* Database */,
+				B7B548411DB4ACF00057B66E /* Pins */,
+				B7B5483E1DB3A1910057B66E /* User */,
+				B7B5483B1DB39E190057B66E /* FB Graph API */,
+				B7B548291DB2A47D0057B66E /* Auth */,
+				B7B548271DB264180057B66E /* SettingsService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B7B548231DB263190057B66E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548151DB25C070057B66E /* LaunchScreen.storyboard */,
+				B7B548101DB25C070057B66E /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B7B548241DB2631D0057B66E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548261DB2633E0057B66E /* Login */,
+				B7B5480A1DB25C070057B66E /* AppDelegate.swift */,
+				B7B5480C1DB25C070057B66E /* HomeViewController.swift */,
+				B7B5480E1DB25C070057B66E /* MoreViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B7B548251DB263300057B66E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548131DB25C070057B66E /* Assets.xcassets */,
+				B7B548181DB25C070057B66E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B7B548261DB2633E0057B66E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548201DB263060057B66E /* LoginViewController.swift */,
+				B7B5481E1DB2628C0057B66E /* FBOAuthViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B7B548291DB2A47D0057B66E /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5482E1DB2A4C10057B66E /* OAuthCredentials.swift */,
+				B7B548301DB2A4CA0057B66E /* OAuthResponseParser.swift */,
+				B7B548321DB2A4DA0057B66E /* OAuthSocial.swift */,
+				B7B548341DB2A4E90057B66E /* FacebookOAuth.swift */,
+				B7B548361DB2A4F50057B66E /* OAuthManager.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		B7B5483B1DB39E190057B66E /* FB Graph API */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5483C1DB39E300057B66E /* FacebookGraphAPI.swift */,
+			);
+			name = "FB Graph API";
+			sourceTree = "<group>";
+		};
+		B7B5483E1DB3A1910057B66E /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5483F1DB3A1990057B66E /* User.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		B7B548411DB4ACF00057B66E /* Pins */ = {
+			isa = PBXGroup;
+			children = (
+				B7B548421DB4AD0B0057B66E /* PinsService.swift */,
+			);
+			name = Pins;
+			sourceTree = "<group>";
+		};
+		B7B548461DB4DBC50057B66E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5484E1DB4DCE20057B66E /* Pin */,
+				B7B548471DB4DBDE0057B66E /* SimplePins.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		B7B5484E1DB4DCE20057B66E /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5484A1DB4DCD50057B66E /* Pin+CoreDataProperties.swift */,
+				B7B5484B1DB4DCD50057B66E /* Pin.swift */,
+			);
+			name = Pin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B5481B1DB25C070057B66E /* Build configuration list for PBXNativeTarget "yaroslav_skorokhid_SimplePins" */;
 			buildPhases = (
+				EFDFEF9E72C919852869256E /* [CP] Check Pods Manifest.lock */,
 				B7B548031DB25C070057B66E /* Sources */,
 				B7B548041DB25C070057B66E /* Frameworks */,
 				B7B548051DB25C070057B66E /* Resources */,
+				7C6AFD8DCF8A5B4B5CEAACF0 /* [CP] Embed Pods Frameworks */,
+				83C0254F513F3148325E09FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +290,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C6AFD8DCF8A5B4B5CEAACF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yaroslav_skorokhid_SimplePins/Pods-yaroslav_skorokhid_SimplePins-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C0254F513F3148325E09FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yaroslav_skorokhid_SimplePins/Pods-yaroslav_skorokhid_SimplePins-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFDFEF9E72C919852869256E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7B548031DB25C070057B66E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B5480F1DB25C070057B66E /* SecondViewController.swift in Sources */,
+				B7B548281DB264180057B66E /* SettingsService.swift in Sources */,
+				B7B548311DB2A4CA0057B66E /* OAuthResponseParser.swift in Sources */,
+				B7B5484D1DB4DCD50057B66E /* Pin.swift in Sources */,
+				B7B548491DB4DBDE0057B66E /* SimplePins.xcdatamodeld in Sources */,
+				B7B5482F1DB2A4C10057B66E /* OAuthCredentials.swift in Sources */,
+				B7B5483D1DB39E300057B66E /* FacebookGraphAPI.swift in Sources */,
+				B7B5484C1DB4DCD50057B66E /* Pin+CoreDataProperties.swift in Sources */,
+				B7B5480F1DB25C070057B66E /* MoreViewController.swift in Sources */,
 				B7B5480B1DB25C070057B66E /* AppDelegate.swift in Sources */,
-				B7B5480D1DB25C070057B66E /* FirstViewController.swift in Sources */,
+				B7B548371DB2A4F50057B66E /* OAuthManager.swift in Sources */,
+				B7B548431DB4AD0B0057B66E /* PinsService.swift in Sources */,
+				B7B548331DB2A4DA0057B66E /* OAuthSocial.swift in Sources */,
+				B7B5481F1DB2628C0057B66E /* FBOAuthViewController.swift in Sources */,
+				B7B548351DB2A4E90057B66E /* FacebookOAuth.swift in Sources */,
+				B7B548401DB3A1990057B66E /* User.swift in Sources */,
+				B7B548211DB263060057B66E /* LoginViewController.swift in Sources */,
+				B7B5480D1DB25C070057B66E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +470,7 @@
 		};
 		B7B5481C1DB25C070057B66E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C3953BA2473B86F4DEF4E5 /* Pods-yaroslav_skorokhid_SimplePins.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yaroslav_skorokhid_SimplePins/Info.plist;
@@ -262,6 +482,7 @@
 		};
 		B7B5481D1DB25C070057B66E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524B672DC5C31289FD224D10 /* Pods-yaroslav_skorokhid_SimplePins.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yaroslav_skorokhid_SimplePins/Info.plist;
@@ -290,8 +511,22 @@
 				B7B5481D1DB25C070057B66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7B548471DB4DBDE0057B66E /* SimplePins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7B548481DB4DBDE0057B66E /* SimplePins.xcdatamodel */,
+			);
+			currentVersion = B7B548481DB4DBDE0057B66E /* SimplePins.xcdatamodel */;
+			path = SimplePins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B7B547FF1DB25C070057B66E /* Project object */;
 }
